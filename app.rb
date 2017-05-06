@@ -1,3 +1,4 @@
+
 require 'sinatra'
 require_relative "hangman.rb"
 enable :sessions
@@ -77,3 +78,4 @@ end
 get '/winner' do
 	erb :winner, layout: :winner, locals: {word: session[:game].name}
 end
+

@@ -1,4 +1,5 @@
 
+
  /*.page_background{*/
 	/*background-repeat: no-repeat; */
  /*background-size: cover;*/
@@ -10,10 +11,9 @@ body  {
  background-size: 100% 100%;
 /* background-color: #000;*/
  background-image: url(http://68.media.tumblr.com/6e47fbb936b0eb9451c55e8c5fbc4f05/tumblr_ocsgl0OpsR1rp0vkjo1_500.gif);
- }
+ 
+ background-color: red;
+   transition: background-color 7s;*/}
 
 
-  {
-  background-color: red;
-   transition: background-color 7s;*/
- }body
+ 

@@ -1,3 +1,4 @@
+
 require "Minitest/autorun"
 require_relative "hangman.rb"
 
@@ -31,4 +32,3 @@ class Testhangmanfunctions < Minitest::Test
 	end    	
 
 
-end
