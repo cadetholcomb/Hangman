@@ -9,8 +9,8 @@
 
 <center><h2><font color = #42f480> <%=message%><font color = red><%=message2%></h2><center>
 
-<p><center><input type="text" name="letter"</p>
-<p><center><input type="submit" value="Enter Guess"/></p>
+<p><center><input type="text" name="letter" autofocus maxlength="1" onkeyup="this.value = this.value.replace(/[^a-zA-Z]/, '')"></p>
+<p><center><input type="submit" /></p>
 
 
 
@@ -37,6 +37,7 @@
 <% elsif counter == 4 %>
 	
 	<img alt="4.gif" src="http://www.retroforum.nl/galgje/4.gif" height = "100" wifth = "100">
+
 
 <% elsif counter == 5 %>
 
